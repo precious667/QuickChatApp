@@ -18,27 +18,24 @@ public class Login {
 
     public Login() {}
 
-    // validators
-    public boolean checkUserName(String username) {
+        public boolean checkUserName(String username) {
         if (username == null) return false;
         return username.contains("_") && username.length() <= 5;
     }
 
     public boolean checkPasswordComplexity(String password) {
         if (password == null) return false;
-        // at least 8 chars, at least 1 uppercase, at least 1 digit, at least 1 special char
-        String regex = "^(?=.{8,}$)(?=.*[A-Z])(?=.*\\d)(?=.*[^A-Za-z0-9]).*$";
+                String regex = "^(?=.{8,}$)(?=.*[A-Z])(?=.*\\d)(?=.*[^A-Za-z0-9]).*$";
         return password.matches(regex);
     }
 
     public boolean checkCellPhoneNumber(String cell) {
         if (cell == null) return false;
-        // international +27 followed by 9 digits (e.g. +27831234567)
+        
         return cell.matches("^\\+27\\d{9}$");
     }
 
-    // registerUser: returns messages required by PoE
-    public String registerUser(String firstName, String lastName, String username, String password, String cellNumber) {
+        public String registerUser(String firstName, String lastName, String username, String password, String cellNumber) {
         this.firstName = firstName;
         this.lastName = lastName;
 
@@ -52,7 +49,7 @@ public class Login {
             return "Cell number is incorrectly formatted or does not contain an international code, please correct the number and try again.";
         }
 
-        // all good — store credentials
+        
         this.username = username;
         this.password = password;
         this.cellNumber = cellNumber;
@@ -67,14 +64,14 @@ public class Login {
 
     public String returnLoginStatus(String username, String password) {
         if (loginUser(username, password)) {
-            // PoE required welcome string (exact wording used in assignment)
+            
             return "Welcome " + (firstName == null ? "" : firstName) + " ," + (lastName == null ? "" : lastName) + " it is great to see you.";
         } else {
             return "Username or password incorrect, please try again.";
         }
     }
 
-    // getters for tests
+    
     public String getUsername() { return username; }
     public String getCellNumber() { return cellNumber; }
 }
