@@ -109,4 +109,8 @@ public class MessageManager {
     public List<Message> getSentMessages() { return sentMessages; }
     public List<Message> getStoredMessages() { return storedMessages; }
     public List<Message> getDisregardedMessages() { return disregardedMessages; }
+
+    void loadStoredFromJson() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 }

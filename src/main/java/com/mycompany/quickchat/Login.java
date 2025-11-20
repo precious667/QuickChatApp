@@ -1,3 +1,4 @@
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
@@ -35,7 +36,9 @@ public class Login {
         return cell.matches("^\\+27\\d{9}$");
     }
 
-        public String registerUser(String firstName, String lastName, String username, String password, String cellNumber) {
+    
+    public String registerUser(String firstName, String lastName, String username, String password, String cellNumber) {
+
         this.firstName = firstName;
         this.lastName = lastName;
 
@@ -77,4 +80,5 @@ public class Login {
 }
 
     
+
 

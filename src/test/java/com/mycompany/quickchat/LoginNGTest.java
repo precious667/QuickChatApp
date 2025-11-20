@@ -3,11 +3,12 @@ package com.mycompany.quickchat;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-public class LoginTest {
+public class LoginNGTest {
 
     @Test
     public void testUserNameCorrect() {
-        Login l = new Login();
+        Login l;
+        l = new Login();
         assertTrue(l.checkUserName("kyl_1"));
     }
 
