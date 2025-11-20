@@ -6,7 +6,7 @@ public class Message {
     private String recipient;
     private String text;
     
-    // Getters and Setters
+    
     public String getMessageID() { return messageID; }
     public void setMessageID(String messageID) { this.messageID = messageID; }
     

@@ -8,8 +8,7 @@ public class MessageManager {
     private List<Message> storedMessages = new ArrayList<>();
     private List<Message> disregardedMessages = new ArrayList<>();
     
-    // Part 3 Methods - SIMPLE VERSION
-    public String displayAllSentMessages() {
+        public String displayAllSentMessages() {
         if (sentMessages.isEmpty()) {
             return "No sent messages found.";
         }
@@ -94,8 +93,7 @@ public class MessageManager {
         return report.toString();
     }
     
-    // Method to add test data
-    public void addTestMessage(Message msg, String type) {
+        public void addTestMessage(Message msg, String type) {
         if ("SEND".equals(type)) {
             sentMessages.add(msg);
         } else if ("STORE".equals(type)) {
@@ -105,7 +103,7 @@ public class MessageManager {
         }
     }
     
-    // Getters for testing
+    
     public List<Message> getSentMessages() { return sentMessages; }
     public List<Message> getStoredMessages() { return storedMessages; }
     public List<Message> getDisregardedMessages() { return disregardedMessages; }

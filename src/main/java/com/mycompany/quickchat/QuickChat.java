@@ -6,15 +6,15 @@ public class QuickChat {
     private static MessageManager messageManager = new MessageManager();
     
     public static void main(String[] args) {
-        // Add test data for Part 3
+        
         addTestData();
         
-        // Show main menu
+        
         showMainMenu();
     }
     
     private static void addTestData() {
-        // Test message 1
+        
         Message msg1 = new Message();
         msg1.setMessageID("MSG001");
         msg1.setMessageHash("HASH001");
@@ -22,7 +22,7 @@ public class QuickChat {
         msg1.setText("Hello, this is test message 1");
         messageManager.addTestMessage(msg1, "SEND");
         
-        // Test message 2
+        
         Message msg2 = new Message();
         msg2.setMessageID("MSG002");
         msg2.setMessageHash("HASH002");
@@ -30,7 +30,7 @@ public class QuickChat {
         msg2.setText("This is a longer test message for testing the longest message feature");
         messageManager.addTestMessage(msg2, "SEND");
         
-        // Test message 3
+        
         Message msg3 = new Message();
         msg3.setMessageID("MSG003");
         msg3.setMessageHash("HASH003");
@@ -38,7 +38,7 @@ public class QuickChat {
         msg3.setText("Another message for the same recipient");
         messageManager.addTestMessage(msg3, "SEND");
         
-        // Add some stored and disregarded messages
+        
         Message msg4 = new Message();
         msg4.setMessageID("MSG004");
         msg4.setMessageHash("HASH004");
@@ -136,11 +136,10 @@ public class QuickChat {
     
     private static void showPart1Menu() {
         JOptionPane.showMessageDialog(null, "Part 1 - Registration & Login features would go here");
-        // You would implement your actual Part 1 login features here
-    }
+           }
     
     private static void showPart2Menu() {
         JOptionPane.showMessageDialog(null, "Part 2 - Send Messages features would go here");
-        // You would implement your actual Part 2 message sending features here
+        
     }
 }

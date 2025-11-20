@@ -81,13 +81,11 @@ public class MessageManagerNGTest {
         List expResult = null;
         List result = instance.getSentMessages();
         assertEquals(result, expResult);
-        // TODO review the generated test code and remove the default call to fail.
+        
         fail("The test case is a prototype.");
     }
 
-    /**
-     * Test of getStoredMessages method, of class MessageManager.
-     */
+    
     @org.testng.annotations.Test
     public void testGetStoredMessages() {
         System.out.println("getStoredMessages");
@@ -95,13 +93,11 @@ public class MessageManagerNGTest {
         List expResult = null;
         List result = instance.getStoredMessages();
         assertEquals(result, expResult);
-        // TODO review the generated test code and remove the default call to fail.
+        
         fail("The test case is a prototype.");
     }
 
-    /**
-     * Test of getDisregardedMessages method, of class MessageManager.
-     */
+    
     @org.testng.annotations.Test
     public void testGetDisregardedMessages() {
         System.out.println("getDisregardedMessages");
@@ -109,42 +105,32 @@ public class MessageManagerNGTest {
         List expResult = null;
         List result = instance.getDisregardedMessages();
         assertEquals(result, expResult);
-        // TODO review the generated test code and remove the default call to fail.
+        
         fail("The test case is a prototype.");
     }
 
-    /**
-     * Test of displayAllSentMessages method, of class MessageManager.
-     */
-    @org.testng.annotations.Test
+        @org.testng.annotations.Test
     public void testDisplayAllSentMessages() {
         System.out.println("displayAllSentMessages");
         MessageManager instance = new MessageManager();
         String expResult = "";
         String result = instance.displayAllSentMessages();
         assertEquals(result, expResult);
-        // TODO review the generated test code and remove the default call to fail.
+        
         fail("The test case is a prototype.");
     }
 
-    /**
-     * Test of findLongestMessage method, of class MessageManager.
-     */
-    @org.testng.annotations.Test
+        @org.testng.annotations.Test
     public void testFindLongestMessage() {
         System.out.println("findLongestMessage");
         MessageManager instance = new MessageManager();
         String expResult = "";
         String result = instance.findLongestMessage();
         assertEquals(result, expResult);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+              fail("The test case is a prototype.");
     }
 
-    /**
-     * Test of searchMessageByID method, of class MessageManager.
-     */
-    @org.testng.annotations.Test
+       @org.testng.annotations.Test
     public void testSearchMessageByID() {
         System.out.println("searchMessageByID");
         String searchID = "";
@@ -152,13 +138,11 @@ public class MessageManagerNGTest {
         String expResult = "";
         String result = instance.searchMessageByID(searchID);
         assertEquals(result, expResult);
-        // TODO review the generated test code and remove the default call to fail.
+        
         fail("The test case is a prototype.");
     }
 
-    /**
-     * Test of searchMessagesByRecipient method, of class MessageManager.
-     */
+    
     @org.testng.annotations.Test
     public void testSearchMessagesByRecipient() {
         System.out.println("searchMessagesByRecipient");
@@ -167,13 +151,11 @@ public class MessageManagerNGTest {
         String expResult = "";
         String result = instance.searchMessagesByRecipient(recipientNumber);
         assertEquals(result, expResult);
-        // TODO review the generated test code and remove the default call to fail.
+        
         fail("The test case is a prototype.");
     }
 
-    /**
-     * Test of deleteMessageByHashBoolean method, of class MessageManager.
-     */
+   
     @org.testng.annotations.Test
     public void testDeleteMessageByHashBoolean() {
         System.out.println("deleteMessageByHashBoolean");
@@ -182,13 +164,11 @@ public class MessageManagerNGTest {
         String expResult = "";
         String result = instance.deleteMessageByHash(hash);
         assertEquals(result, expResult);
-        // TODO review the generated test code and remove the default call to fail.
+        
         fail("The test case is a prototype.");
     }
 
-    /**
-     * Test of displayFullReport method, of class MessageManager.
-     */
+    
     @org.testng.annotations.Test
     public void testDisplayFullReport() {
         System.out.println("displayFullReport");
@@ -196,7 +176,7 @@ public class MessageManagerNGTest {
         String expResult = "";
         String result = instance.displayFullReport();
         assertEquals(result, expResult);
-        // TODO review the generated test code and remove the default call to fail.
+       
         fail("The test case is a prototype.");
     }
     
