@@ -7,7 +7,7 @@ public class MessageManager {
     private List<Message> sentMessages = new ArrayList<>();
     private List<Message> storedMessages = new ArrayList<>();
     private List<Message> disregardedMessages = new ArrayList<>();
-    //array methods
+    //array methods for part 3
         public String displayAllSentMessages() {
         if (sentMessages.isEmpty()) {
             return "No sent messages found.";
