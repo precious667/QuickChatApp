@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-20T15:29:16Z" name="Surefire suite" finished-at="2025-11-20T15:29:16Z" duration-ms="54">
+    <groups>
+    </groups>
+    <test started-at="2025-11-20T15:29:16Z" name="Surefire test" finished-at="2025-11-20T15:29:16Z" duration-ms="54">
+      <class name="com.mycompany.quickchat.LoginNGTest">
+        <test-method signature="testPasswordCorrect()[pri:0, instance:testPasswordCorrect(com.mycompany.quickchat.LoginNGTest)]" started-at="2025-11-20T15:29:16Z" name="testPasswordCorrect" finished-at="2025-11-20T15:29:16Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordCorrect -->
+        <test-method signature="testUserNameCorrect()[pri:0, instance:testUserNameCorrect(com.mycompany.quickchat.LoginNGTest)]" started-at="2025-11-20T15:29:16Z" name="testUserNameCorrect" finished-at="2025-11-20T15:29:16Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserNameCorrect -->
+        <test-method signature="testRegisterAndLogin()[pri:0, instance:testRegisterAndLogin(com.mycompany.quickchat.LoginNGTest)]" started-at="2025-11-20T15:29:16Z" name="testRegisterAndLogin" finished-at="2025-11-20T15:29:16Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterAndLogin -->
+        <test-method signature="testUserNameIncorrect()[pri:0, instance:testUserNameIncorrect(com.mycompany.quickchat.LoginNGTest)]" started-at="2025-11-20T15:29:16Z" name="testUserNameIncorrect" finished-at="2025-11-20T15:29:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserNameIncorrect -->
+        <test-method signature="testPasswordIncorrect()[pri:0, instance:testPasswordIncorrect(com.mycompany.quickchat.LoginNGTest)]" started-at="2025-11-20T15:29:16Z" name="testPasswordIncorrect" finished-at="2025-11-20T15:29:16Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordIncorrect -->
+        <test-method signature="testCellCorrect()[pri:0, instance:testCellCorrect(com.mycompany.quickchat.LoginNGTest)]" started-at="2025-11-20T15:29:16Z" name="testCellCorrect" finished-at="2025-11-20T15:29:16Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCellCorrect -->
+        <test-method signature="testCellIncorrect()[pri:0, instance:testCellIncorrect(com.mycompany.quickchat.LoginNGTest)]" started-at="2025-11-20T15:29:16Z" name="testCellIncorrect" finished-at="2025-11-20T15:29:16Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCellIncorrect -->
+      </class> <!-- com.mycompany.quickchat.LoginNGTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="com.mycompany.quickchat.MessageManagerNGTest">
+        <methods>
+          <include name="testGetStoredMessages"/>
+          <include name="testSearchMessageByID"/>
+          <include name="setUpClass"/>
+          <include name="setUpMethod"/>
+          <include name="testGetSentMessages"/>
+          <include name="testDisplayAllSentMessages"/>
+          <include name="testFindLongestMessage"/>
+          <include name="testGetDisregardedMessages"/>
+          <include name="testDisplayFullReport"/>
+          <include name="testSearchMessagesByRecipient"/>
+          <include name="tearDownClass"/>
+          <include name="tearDownMethod"/>
+          <include name="testDeleteMessageByHashBoolean"/>
+        </methods>
+      </class> <!-- com.mycompany.quickchat.MessageManagerNGTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
